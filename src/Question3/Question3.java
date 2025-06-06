@@ -8,8 +8,11 @@ public class Question3{
 	
 	
 	// as well, if there are multiple of the same number, each employee of the same number will receive
-	//the smallest value and the later employees will be accounted for like in sports
-	//eg 1, 2, 2, 4, 5, 6, 7, 7, 7, 10
+	//the smallest value and the later employees will be accounted for
+	//eg Rankings: 1, 2, 2, 4, 5, 6, 7, 7, 7, 10
+	
+	//This program copies the elements in the original to the copy array, then sorts the copy array.
+	//Use the copy array to compare where the employees score ended up in the rankings
 	static int[] employeeRankings(int[] scores) {
 		int N = scores.length;
 		int[] copy = new int[N];

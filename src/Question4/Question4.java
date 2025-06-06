@@ -2,6 +2,10 @@ package Question4;
 
 import java.util.Random;
 
+//The code runs by randomly producing a boolean value
+//instead of comparing larger vs smaller, produce a random boolean to determine when 
+//to take from the left or right merge array
+
 public class Question4 {
 
 	

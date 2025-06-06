@@ -6,6 +6,11 @@ import java.util.*;
 
 public class Question5{
 	
+	//Implements Time class which uses comparable. A sorting algorithm is created for Time which
+	//uses insertion sort. Since compareTo() is an int, we can return a special value for equal.
+	//This is used to print a message when two elements are equal. This takes user input for size and 
+	//randomly generates the time objects
+	
 	static boolean duplicates;
 	
 	

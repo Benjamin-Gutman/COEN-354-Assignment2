@@ -2,6 +2,14 @@ package Question2;
 
 public class Question2{
 	
+	//This program partitions the main array into N/M blocks of size N.
+	//These blocks will have merge sort implemented onthem individually to bring the smallest element
+	//of each block to the start. Selection sort will then be implemented to sort the blocks by their
+	//smallest value. Then, the blocks will merge. once two blocks merge, the partitions are kept in mind
+	//and used as reference for future merges. Merge the first with the second, second with the third etc
+	//Once you've merged all the blocks together going forward, repeat the process backwards to move smaller
+	//elements to the front. This method allows the use of an auxiliary array of only size M each time,
+	// even if it is smaller than N/M.
 	
 	static void subMerge(int[] arr, int start, int M) {
 		int[] aux = new int[M];
@@ -143,7 +151,7 @@ public class Question2{
 	
 	public static void main(String[] args) {
 		int[] array = {4,7,6,5,9,8,2,1,12,10,11,3};
-		sort(array, 3);
+		sort(array, 4);
 		for(int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);
 		}

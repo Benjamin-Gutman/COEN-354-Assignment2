@@ -1,6 +1,8 @@
 package Question1;
 
 public class Question1{
+	//Partitions the values by even and odd, pretty simple question
+	
 	
 	public static void ScoreArrange(int[] scores, int start, int end) {
 		if (start >= end) {
