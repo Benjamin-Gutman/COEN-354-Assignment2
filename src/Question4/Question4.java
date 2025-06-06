@@ -4,7 +4,8 @@ import java.util.Random;
 
 //The code runs by randomly producing a boolean value
 //instead of comparing larger vs smaller, produce a random boolean to determine when 
-//to take from the left or right merge array
+//to take from the left or right merge array. The extra space taken is proportional to the recursion
+// which would be O(logN)
 
 public class Question4 {
 
